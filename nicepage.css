@@ -33928,18 +33928,6 @@ input.u-field-input.u-field-input.u-border-active-palette-1-light-3:checked {
   background-color: transparent !important;
 }
 
-@font-face {
-  font-family: 'TT Cometus Trial';
-  src: url('fonts/TT\ Cometus\ Trial\ Bold.ttf') format('truetype');
-}
-
-* {
-  font-family: 'TT Cometus Trial', sans-serif;
-}
-
-.u-custom-font {
-  font-family: "TT Cometus Trial", sans-serif;
-}
 
 
 .u-border-hover-palette-1-base:hover,
