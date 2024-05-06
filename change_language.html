@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="change_language.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="change_language.js"></script>
+    <style>
+        body {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup-container">
+        <span class="close-button" onclick="closePopup()">×</span> <!-- Крестик для закрытия поп-ап окна -->
+    <a href="#" onclick="changeLanguage('kk')" style="text-decoration: none; color: #FDE473;">KZ</a>
+    <a href="#" onclick="changeLanguage('ru')" style="text-decoration: none; color: #FDE473;">RU</a>
+
+    <script>
+        function changeLanguage(lang) {
+            // Здесь можно добавить код для сохранения выбранного языка, например, в cookies или localStorage
+            // Закрываем поп-ап окно после выбора языка
+            window.close();
+        }
+    </script>
+     
+</body>
+</html>

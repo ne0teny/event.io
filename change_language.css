@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5); /* Задний фон с прозрачностью */
+    font-family: "Bebas Neue.ttf", sans-serif; /* Шрифт */
+    font-size: 64px; /* Размер шрифта */
+    color: #FDE473; /* Цвет шрифта */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный чёрный цвет */
+    z-index: 999; /* Устанавливаем поверх всего остального контента */
+}
+
+.popup-container {
+    width: 283px;
+    height: 282px;
+    background-image: url('images/IRFIN1.png'); /* Новый путь к изображению */
+    background-size: cover; /* Растянуть изображение на всю площадь контейнера */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: center; /* Центрировать изображение */
+    border-radius: 10px; /* Скругление углов */
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрирование по горизонтали и вертикали */
+    border: none; /* Удаление обводки браузера */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.popup-container h2 {
+    margin-top: 0;
+}
+
+.popup-container a {
+    width: 700;
+    font-weight: bold;
+    line-height: 350%; /* Новая высота строки, например, 200% от размера шрифта */
+}
+
+
+
+.popup-container button:hover {
+    background-color: #FF8C33; /* Измененный цвет фона кнопки при наведении */
+}
+
+.close-button {
+    position: absolute;
+    left: 80%;;
+    font-size: 48px;
+    color: #FDE473; /* Желтый цвет */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.close-button:hover {
+    color: #FFA500; /* Измененный цвет крестика при наведении */
+}
+
